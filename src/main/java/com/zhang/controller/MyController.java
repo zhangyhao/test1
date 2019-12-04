@@ -18,6 +18,7 @@ public class MyController {
 	private MyService service;
 	//列表 修改了一行
 	//B修改了一行
+	//B修改了两行
 	@RequestMapping("list")
 	public Object list(HttpServletRequest request){
 		List<Applicant> list = service.list();

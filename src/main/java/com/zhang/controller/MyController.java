@@ -17,6 +17,7 @@ public class MyController {
 	@Autowired
 	private MyService service;
 	//列表 修改了一行
+	//B修改了一行
 	@RequestMapping("list")
 	public Object list(HttpServletRequest request){
 		List<Applicant> list = service.list();
